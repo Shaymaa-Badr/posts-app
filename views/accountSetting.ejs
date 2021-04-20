@@ -53,17 +53,17 @@
                     <hr>
                     <form action="/changePassword" method="POST">
                         
-                        <input name="oldPassword" placeholder="Enter Old Password" type="text" class="form-control my-2">
+                        <input name="oldPassword" placeholder="Enter Old Password" type="password" class="form-control my-2">
                         <% if (incorrect.length!=0) { %>
                             <div class="alert alert-danger text-center">
                                 Incorrect Password
                             </div>
                             <% } %>
-                        <input name="newPassword" placeholder="New Password" type="text" class="form-control my-2">
+                        <input name="newPassword" placeholder="New Password" type="password" class="form-control my-2">
                         <% if (errors.find(e=>e.param === 'newPassword')) { %>
                             <div class="alert alert-danger">Inavlid Input</div>
                             <% } %>
-                            <input name="confPassword" placeholder="Repeat Password" type="text" class="form-control my-2">
+                            <input name="confPassword" placeholder="Repeat Password" type="password" class="form-control my-2">
                             <% if (errors.find(e =>e.param === 'confPassword')) { %>
                                 <div class="alert alert-danger">Inavlid Input</div>
                                 <% } %>     
