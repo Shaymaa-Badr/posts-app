@@ -1,6 +1,6 @@
 /* =====================spinner===================== */
 
-/* .parent-spinner {
+ .parent-spinner {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
     }
-} */
+} 
 
 /* =====================/spinner===================== */
 
